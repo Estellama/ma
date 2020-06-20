@@ -1,0 +1,566 @@
+/*设置主页布局begin*/ 
+*{
+  box-sizing: border-box;
+}
+body 
+{
+  margin: 0;
+  padding:0;
+  text-align:center;
+}
+#header/*设置主页页眉区布局*/ 
+{
+	width:1550px;
+	height: 130px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu/*设置主页内容区布局*/
+{
+	padding:0 0 0 20px;
+	margin:0;
+	list-style:none;
+	height:20px;
+	background:#fff;
+	repeat-x;
+	position:relative;
+	font-family:arial,verdana,sans-serif;
+	margin-top:20px;
+}
+.h1/*设置主页一级标题样式*/
+{
+	font-family:fantasy;
+	font-size:10px;
+	text-align: center;
+	margin-top:1px;
+}
+
+.p/*设置主页段落样式*/
+{
+	font-family:楷书;
+	font-size:50px;
+	text-align: center;
+	margin-top:5px;
+}
+#background-img/*设置主页背景图片布局*/
+{
+	position:absolute;
+	width:1550px;
+	height:500px;
+	left:0px;
+	top:100px;
+	display:block;
+	margin-top:100px;
+
+}
+/*设置主页menu类相应元素的布局*/
+.menu li.top
+{
+	display:block;
+	float:left;
+	position:relative;
+}
+.menu li a.top_link
+{
+	
+	display:block;
+	float:left;
+	height:40px;
+	line-height:33px;
+	color:#bbb;
+	text-decoration:none;
+	font-size:30px;
+	font-weight:bold;
+	padding:0 0 0 180px;
+	cursor:pointer;
+}
+.menu li a.top_link span
+{
+	float:left;
+	font-weight:bold;
+	display:block;
+	padding:0 24px 0 12px;
+	height:40px;
+}
+.menu li a.top_link:hover
+{
+	color:#000;
+	
+}
+/*设置主页布局end*/ 
+
+
+/*设置个人简介页面布局begin*/
+#contain/*设置页面上栏布局*/
+{
+	width:100%;
+	height:600px;
+	position:relative;
+	margin:auto;
+}
+#header-2/*设置页面整体布局*/
+{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100px;
+	background:#E6E6FA;
+	margin:0 auto;
+}
+#footer/*设置页面页脚布局*/
+{
+	position:absolute;
+	top:650px;
+	width:100%;
+	height:50px;
+	background:#E6E6FA;
+	margin:0 auto;
+}
+#contain-1/*设置上左页面布局*/
+{
+	width:60%;
+	position:absolute;
+	top:80px;
+	left:0;
+	height:240px;
+	padding:0;
+	margin:0;
+	background:#E6E6FA;
+}
+#contain-2/*设置上右页面布局*/
+{
+	width:40%;
+	position:absolute;
+	top:80px;
+	right:0;
+	height:240px;
+	padding:0;
+	margin:0;
+	background:#E6E6FA;
+}
+#contain-3/*设置页面下栏布局*/
+{
+	width:100%;
+	position:absolute;
+	top:320px;
+	right:0;
+	height:320px;
+	background:white;
+	padding:0;
+	margin:0;
+	background:#E6E6FA;
+}
+/*对每个区域的元素样式分别进行设置*/
+#contain-2 .mypoints
+{
+	width:100px;
+	border:1px soild #E8E8E8;
+	margin:0;
+	padding:0;
+}
+#contain-2 .mypoints h3
+{
+	color:#C0C0C0;
+	text-align:center;
+	font-size:40px;
+	width:600px;
+	position:absolute;
+	top:0;
+	padding:0;
+	margin:0;
+}
+.point1
+{
+	font-size:40px;
+	color:#AAAAAAs;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.point2
+{
+	font-size:40px;
+	color:#CCCCFF;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:130px;
+	left:70px;
+}
+.point3
+{
+	font-size:60px;
+	color:#77DDFF;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:15px;
+	right:200px;
+}
+.point4
+{
+	font-size:30px;
+	color:#FFC0CB;
+	width:200px;
+	height:100px;
+	position:absolute;
+	top:70px;
+	left:130px;
+}
+.point5
+{
+	font-size:40px;
+	color:#FFEFD5;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:30px;
+	right:60px;
+}
+#footer p
+{
+	font-family:Times New Roman;
+	font-size:20px;
+	position:absolute;
+	right:40px;
+}
+#contain-1 p
+{
+	font-size:25px;
+	color:black;
+	text-align:left;
+	text-indent:2em;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:20px;
+	left:210px;
+}
+#background-img1/*设置显示图片布局*/
+{
+	width:200px;
+	height:230px;
+	position:absolute;
+	left:20px;
+	top:0px;
+	
+}
+#background-img2
+{
+	width:280px;
+	height:280px;
+	position:absolute;
+	left:50px;
+	top:30px;
+}
+#background-img3
+{
+	width:280px;
+	height:280px;
+	position:absolute;
+	left:460px;
+	top:30px;
+}
+#background-img4
+{
+	width:280px;
+	height:280px;
+	position:absolute;
+	right:400px;
+	top:30px;
+}
+#background-img5
+{
+	width:280px;
+	height:280px;
+	position:absolute;
+	right:30px;
+	top:30px;
+}
+/*设置个人简介页面布局end*/
+
+
+/*设置我的学校页面样式begin*/
+#header-3/*设置页面整体布局*/
+{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100px;
+	margin:0 auto;
+}
+#contain-4/*设置左上页面布局*/
+{
+	width:80%;
+	position:absolute;
+	top:50px;
+	left:0;
+	height:650px;
+	background:white;
+	padding:0;
+	margin:0;
+}
+#contain-5/*设置右边页面布局*/
+{
+	width:20%;
+	position:absolute;
+	top:50px;
+	right:0;
+	height:650px;
+	background:white;
+	padding:0;
+	margin:0;
+}
+/*设置展示图片布局*/
+#background-img6
+{
+	width:300px;
+	height:200px;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+#background-img8
+{
+	width:300px;
+	height:200px;
+	position:absolute;
+	right:0px;
+	top:220px;
+}
+#background-img9
+{
+	width:300px;
+	height:200px;
+	position:absolute;
+	right:0px;
+	top:440px;
+}
+#background-img12
+{
+	width:300px;
+	height:270px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#my-word/*设置文字显示样式*/
+{
+	width:90%;
+	height:250px;
+	padding:0;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:20px;
+}
+.my-school
+{
+	font-size:20px;
+	color:black;
+	text-align:left;
+	text-indent:2em;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:0px;
+	left:210px;
+}
+#school-table/*设置表格样式*/
+{
+	width:80%;
+	height:300px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:250px;
+	left:0;
+}
+/*设置表格元素样式*/
+table
+{
+	width:80%;
+	padding:0;
+	position:absolute;
+	left:150px;
+	top:100px;
+	border-spacing:10px 20px;
+}
+.title
+{
+	font-size:22px;
+	margin:0;
+	color:black;
+	padding:0;
+	position:absolute;
+	left:550px;
+	top:65px;
+	color:red;
+}
+.school-table th
+{
+	border:1px;
+	padding:6px;
+}
+.school-table td
+{
+	border:1px;
+	padding:6px;
+}
+tfoot td
+{
+	text-align:right;
+	color:red;
+	position:absolute;
+	right:50px;
+	top:320px;
+}
+/*设置我的学校页面布局end*/
+
+
+/*设置反馈表单页面布局begin*/
+.feedback
+{
+	width:100%;
+	height:100px;
+	background:url("../img/9.jpg") no-repeat;
+	
+}
+
+#atitle
+{
+	line-height:24px;
+	font-weight:bold;
+	font-size:40px;
+	text-indent:12px;
+	color:black;
+	position:absolute;
+	top:20px;
+	left:680px;
+	margin:10px;
+}
+#yonghuxinxi
+{
+	font-size:20px;
+	color:black;
+	position:absolute;
+	left:300px;
+	top:55px;
+}
+
+#m1
+{
+	width:100%;
+	height:700px;
+	position:absolute;
+	top:100px;
+	left:0;
+	padding:0;
+	margin:0;
+	background:url("../img/9.jpg") no-repeat;
+}
+
+label
+{
+	float:left;
+	width:400px;
+	height:100px;
+	text-align:left;
+	color:black;
+	cursor:pointer;
+	font-size:30px;
+	position:absolute;
+	left:200px;
+}
+.username input
+{
+	width:240px;
+	position:absolute;
+	top:0px;
+	left:400px;
+	height:30px;
+}
+.email input
+{
+	width:240px;
+	position:absolute;
+	top:10px;
+	left:400px;
+	height:30px;
+	
+}
+.url input
+{
+	width:240px;
+	position:absolute;
+	top:10px;
+	left:400px;
+	height:30px;
+	
+}
+textarea
+{
+	width:400px;
+	height:200px;
+	padding-left:2px;
+	line-height:22px;
+	border:1px;
+	position:absolute;
+	left:550px;
+	top:0px;
+}
+.btns
+{
+	padding:5px 0;
+	text-align:center;
+	position:absolute;
+	left:1200px;
+	top:750px;
+	
+}
+.btns button
+{
+	height:30px;
+	margin:0 5px;
+	letter-spacing:3px;
+	padding-left:3px;
+	cursor:pointer;
+}
+.username
+{
+	font-size:30px;
+	position:absolute;
+	left:100px;
+	top:100px;
+	width:400px;
+}
+.email
+{
+	font-size:30px;
+	position:absolute;
+	left:100px;
+	top:200px;
+	width:400px;
+}
+.url
+{
+	font-size:30px;
+	position:absolute;
+	left:100px;
+	top:300px;
+	width:400px;
+}
+.msg
+{
+	font-size:30px;
+	position:absolute;
+	left:100px;
+	top:400px;
+	width:400px;
+	color:black;
+}
